@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Power</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="logo.png" alt="logo" />Sports Center</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home" onclick="func10()">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#class">Sports Info</a></li>
+          <li class="link"><a href="#trainer">Competitions</a></li>
+          <li class="link"><a href="#price">Membership Offers</a></li>
+          <li class="link"><button class="btn">Contact Us</button></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="header.png" alt="header" />
+        </div>
+        <div class="header__content">
+         
+          <h1 class="section__header">Competitive games</h1>
+          <p>
+            Competitive games play a significant role in entertainment and personal growth. They offer a wide range of benefits, including fostering social interaction, honing strategic thinking, and promoting physical and mental well-being. From traditional sports like soccer and basketball to esports and competitive gaming, these activities provide avenues for individuals of all ages to engage in healthy competition, teamwork, and skill development. Moreover, competitive games can be enjoyed both indoors and outdoors, offering flexibility in play regardless of weather conditions or location. Whether it's organized leagues, tournaments, or casual matches with friends, competitive games contribute to mental stimulation, stress relief, and overall enjoyment, making them an integral part of leisure time for many people.          <div class="header__btn">
+          </div>
+        </div>
+      </div>
+    </header>
+
+   
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Sports Info</h2>
+      <p class="section__description">
+        Participating in competitive games is a fulfilling endeavor, offering opportunities for skill enhancement, camaraderie, and sheer enjoyment. Whether it's through organized leagues, online communities, or friendly matches with peers, immersing yourself in competitive gaming provides a sense of belonging and the opportunity to refine your abilities. Whether you're vying for victory or simply playing for the thrill, engaging in your preferred competitive game enriches your leisure time and strengthens connections with fellow enthusiasts who share your competitive spirit and passion for the game.      <div class="class__grid">
+
+        <div class="class__card">
+          <img src="outdoor.png" alt="class" height="200px" />
+          <div class="class__content">
+            <h4>Traditional sports</h4>
+            <button class="btn" onclick="func1()">Click to join</button>
+
+          </div>
+        </div>
+
+        <div class="class__card">
+          <img src="badminton.png" alt="class" height="200px"/>
+          <div class="class__content">
+            <h4>Badminton</h4>
+            <button class="btn" onclick="func1()">Click to join</button>
+
+          </div>
+        </div>
+
+        <div class="class__card">
+            <img src="boxing.png" alt="class" height="200px"/>
+            <div class="class__content">
+              <h4>Boxing</h4>
+              <button class="btn" onclick="func1()">Click to join</button>
+
+            </div>
+          </div>
+          <div class="class__card">
+            <img src="martial.png" alt="class" height="200px"/>
+            <div class="class__content">
+              <h4>Martial Arts</h4>
+              <button class="btn" onclick="func1()">Click to join</button>
+
+            </div>
+          </div>
+      </div>
+    </section>
+
+ 
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="logo.png" alt="logo" />Sports Center</a>
+          </div>
+          <p>
+            Take the first step towards a healthier, stronger you with our
+            unbeatable pricing plans. Let's sweat, achieve, and conquer
+            together!
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <div class="footer__links">
+            <a href="#">Blogs</a>
+            <a href="#">Security</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">BMI Calculator</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script>
+     function func1(){
+        window.location.href="pay.html";
+    }
+      
+    </script>
+     <script>
+      function func10(){
+         window.location.href="index.html";
+     }
+       
+     </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

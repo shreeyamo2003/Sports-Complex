@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Power</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="logo.png" alt="logo" />Sports Center</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home" onclick="func10()">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#class">Sports Info</a></li>
+          <li class="link"><a href="#trainer">Competitions</a></li>
+          <li class="link"><a href="#price">Membership Offers</a></li>
+          <li class="link"><button class="btn">Contact Us</button></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="header.png" alt="header" />
+        </div>
+        <div class="header__content">
+         
+          <h1 class="section__header">Outdoor games</h1>
+          <p>
+            Outdoor games are essential for both fun and personal growth. They promote physical fitness, teamwork, and a connection with nature. From sports like soccer and basketball to activities like hiking and cycling, they encourage exercise, coordination, and camaraderie. Outdoor games offer adventure and appreciation of the outdoors, fostering well-being and environmental stewardship. Whether it's in the park or the wilderness, they contribute to physical health and social interaction, making them a vital part of leisure time for many.          <div class="header__btn">
+          </div>
+        </div>
+      </div>
+    </header>
+
+   
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Sports Info</h2>
+      <p class="section__description">
+        Engaging in your favorite outdoor game is a fulfilling endeavor, providing avenues for skill enhancement, camaraderie, and sheer enjoyment. Whether it's through organized leagues, spontaneous matches with friends, or joining outdoor clubs, immersing yourself in your preferred game cultivates a sense of belonging and allows you to refine your abilities. Whether you're in competition mode or simply playing for pleasure, participating in your beloved outdoor game enriches your leisure moments and forges bonds with fellow enthusiasts who share your enthusiasm for outdoor activities.      <div class="class__grid">
+        <div class="class__card">
+          <img src="cricket.png" alt="class" height="200px" />
+          <div class="class__content">
+            <h4>Cricket</h4>
+            <button class="btn" onclick="func1()">Click to join</button>
+
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="basketball.png" alt="class" height="200px" />
+          <div class="class__content">
+            <h4>Basketball</h4>
+            <button class="btn" onclick="func1()">Click to join</button>
+
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="football.png" alt="class" height="200px"/>
+          <div class="class__content">
+            <h4>Football</h4>
+            <button class="btn" onclick="func1()">Click to join</button>
+
+          </div>
+        </div>
+
+
+        <div class="class__card">
+            <img src="athletics.png" alt="class" height="200px"/>
+            <div class="class__content">
+              <h4>Athletic</h4>
+              <button class="btn" onclick="func1()">Click to join</button>
+
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+ 
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="logo.png" alt="logo" />Sports Center</a>
+          </div>
+          <p>
+            Take the first step towards a healthier, stronger you with our
+            unbeatable pricing plans. Let's sweat, achieve, and conquer
+            together!
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <div class="footer__links">
+            <a href="#">Blogs</a>
+            <a href="#">Security</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">BMI Calculator</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script>
+     function func1(){
+        window.location.href="pay.html";
+    }
+      
+    </script>
+     <script>
+      function func10(){
+         window.location.href="index.html";
+     }
+       
+     </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

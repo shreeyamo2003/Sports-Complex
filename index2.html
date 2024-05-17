@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form | Dan Aleko</title>
+  <link rel="stylesheet" href="style2.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>Login as User</h1>
+    <div class="input-box">
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <i class='bx bxs-user'></i>
+    </div>
+    <div class="input-box">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <i class='bx bxs-lock-alt'></i>
+    </div>
+    <div class="remember-forgot">
+        <label><input type="checkbox" name="remember">Remember Me</label>
+        <a href="#">Forgot Password</a>
+    </div>
+    <input type="button" value="Login" class="btn" onclick="login()">
+    <div class="register-link">
+        <p>Don't have an account? <a href="#" onclick="signup()">Sign Up</a></p>
+        <p>Or login as <a href="#" onclick="loginAsAdmin()">administrator</a></p>
+    </div>
+</div>
+
+<script>
+    function login() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        // You can replace the following condition with your actual login logic
+        if ((username === "shreeya" && password === "password123")||(username === "eva" && password === "password456")||(username === "simran" && password === "password789")) {
+            alert("Login successful");
+            // Redirect the user to the desired page after successful login
+            window.location.href = "http://localhost/dbs-main/index.php";
+        } else {
+            alert("Invalid credentials");
+        }
+    }
+function signup(){
+  window.location.href = "http://localhost/dbs-main/index4.php";
+}
+    function loginAsAdmin() {
+        // Redirect the user to the admin login page
+        window.location.href = "admin_login.html";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Power</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="logo.png" alt="logo" />Sports Center</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home" onclick="func11()">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#class">Sports Info</a></li>
+          <li class="link"><a href="#trainer">Competitions</a></li>
+          <li class="link"><a href="#price">Membership Offers</a></li>
+          <li class="link"><button class="btn">Contact Us</button></li>
+        </ul>
+      </nav>
+     
+    </header>
+
+ 
+
+
+
+
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Membership Offers</h2>
+      <p class="section__description">
+        Our membership options at our sports facility are designed to suit various preferences and fitness goals. With different tiers available, you can choose the plan that best fits your needs and aspirations, whether you're a casual participant or a dedicated athlete. Explore our membership tiers and discover the perfect fit for your journey to a healthier, more active lifestyle.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Basic Plan</h4>
+            <img src="sport.png" alt="price" />
+            <p>
+                Our Basic Plan is perfect for those starting their sports journey or maintaining an active lifestyle.
+            </p>
+            <hr />
+            <h4>Key Features</h4>
+            <p>Smart sports plan</p>
+            <p>Access to all facilities/amenities</p>
+          </div>
+          <button class="btn" onclick="func3()">Payment</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Intermediate Plan</h4>
+            <img src="sports (1).png" alt="price" />
+            <p>
+                Our monthly plan is crafted to offer structure and diversity to your sports routine, keeping you motivated and focused on your goals.
+            </p>
+            <hr />
+            <h4>Key Features</h4>
+            <p>PRO Sport</p>
+            <p>Smart sports plan</p>
+            <p>Access to all facilities/amenities</p>
+          </div>
+          <button class="btn" onclick="func4()">Payment</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>VIP Plan</h4>
+            <img src="sports.png" alt="price" />
+            <p>
+                With our VIP membership, you gain exclusive access to our cutting-edge sports facilities, seasoned trainers, and a dynamic fitness community.
+            </p>
+            <hr />
+            <h4>Key Features</h4>
+            <p>ELITE Sport & Classes</p>
+            <p>PRO sport</p>
+            <p>Smart sport plan</p>
+            <p>Access to all facilities/amenities</p>
+            <p>Personal Training</p>
+          </div>
+          <button class="btn" onclick="func5()">Payment</button>
+        </div>
+      </div>
+    </section>
+
+ 
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="logo.png" alt="logo" />Sports Center</a>
+          </div>
+          <p>
+            Take the first step towards a healthier, stronger you with our
+            unbeatable pricing plans. Let's sweat, achieve, and conquer
+            together!
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <div class="footer__links">
+            <a href="#">Blogs</a>
+            <a href="#">Security</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">BMI Calculator</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script>
+      function func3(){
+          window.location.href="http://localhost/dbs-main/joinsport.php";
+          return false;
+        }
+        function func4(){
+          window.location.href="http://localhost/dbs-main/joinsport2.php";
+          return false;
+        }
+        function func5(){
+          window.location.href="http://localhost/dbs-main/joinsport3.php";
+          return false;
+        }
+      
+    </script>
+      <script>
+        function func11(){
+            window.location.href="http://localhost/dbs-main/index.php";
+            return false;
+          }
+        
+      </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
